@@ -16,7 +16,6 @@
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1",
     "react-modal-image": "^2.6.0",
-    "react-scroll-horizontal": "^1.6.6",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^6.7.0"
   },
