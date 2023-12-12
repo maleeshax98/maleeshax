@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<motion.button
+          initial={{
+            opacity: 0,
+            x: 500,
+          }}
+          animate={{
+            opacity: 1,
+            x: 0,
+          }}
+          transition={{
+            duration: 1.5,
+          }}
+          whileHover={{
+            background: "linear-gradient(to right, #101010, #0173ff)",
+          }}
+          className="btn px-[20px] p-[10px] transition-all"
+        >
+          Click Me
+        </motion.button>
