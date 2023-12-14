@@ -12,7 +12,7 @@ export default function Form({
 }) {
   return (
     <div>
-      <div className="mt-[30px] flex flex-col gap-[40px]">
+      <div className="mt-[30px]  max-w-[80vw]  flex flex-col gap-[40px]">
         <label>
           <p className="text-[#707070]">Email</p>
           <input

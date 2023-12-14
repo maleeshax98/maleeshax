@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ContactCard() {
   return (
-    <div className="card w-full mt-[30px] rounded-lg p-4 flex flex-wrap gap-[20px]">
+    <div className="card w-full max-w-[80vw] mt-[30px] rounded-lg p-4 flex flex-wrap gap-[20px]">
       <div className="w-[150px] h-[150px] rounded-full overflow-hidden relative">
         <Image
           src={"/images/1.jpg"}
