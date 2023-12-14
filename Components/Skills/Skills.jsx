@@ -15,9 +15,19 @@ const skills = [
     level: "98%",
   },
   {
+    img: "skills/reactnative.svg",
+    skill: "React Native",
+    level: "95%",
+  },
+  {
     img: "skills/node.svg",
     skill: "Node Js (Express Js)",
     level: "98%",
+  },
+  {
+    img: "skills/python.svg",
+    skill: "Python",
+    level: "90%",
   },
   {
     img: "skills/tailwind.svg",
@@ -40,21 +50,13 @@ const skills = [
     level: "50%",
   },
   ,
-  {
-    img: "skills/reactnative.svg",
-    skill: "React Native",
-    level: "95%",
-  },
+  
   {
     img: "skills/php.svg",
     skill: "PHP",
     level: "80%",
   },
-  {
-    img: "skills/python.svg",
-    skill: "Python",
-    level: "90%",
-  },
+  
 ];
 export default function () {
   return (

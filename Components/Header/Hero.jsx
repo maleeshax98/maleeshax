@@ -11,11 +11,11 @@ import Link from "next/link";
 export default function Hero({ setActive }) {
   const [text] = useTypewriter({
     words: [
-      "Coffee Connoisseur Extraordinaire - Brewing Dreams with Every Sip.",
-      "Physics Fiend - Exploring the Universe One Equation at a Time.",
-      "{ JavaScript Enthusiast } - Coding Love Stories with Braces.",
+      "Coffee Dreamer.",
+      "Physics Enthusiast.",
+      "{ JS Coder } - Love Stories in Code.",
       "Embracing Setbacks with Style - The Art of Turning 'FK Failures!' into Triumphs.",
-      "Loyalty Unleashed - As Fierce as the Universe Itself.",
+      "Fierce Loyalty Unleashed.",
     ],
     loop: 0,
     delaySpeed: 2000,
@@ -74,7 +74,7 @@ export default function Hero({ setActive }) {
           <SocialIcons />
         </motion.div>
         <motion.div
-          className="flex flex-wrap mt-[20px] justify-center items-center gap-[15px] font-semibold text-[#848484]"
+          className="flex  flex-wrap  text-xs md:text-base  mt-[20px] justify-center items-center gap-[15px] font-semibold text-[#848484]"
           initial={{
             y: 500,
             opacity: 0,
@@ -122,7 +122,7 @@ export default function Hero({ setActive }) {
                 borderRadius: "10px",
               }}
               onClick={() => {
-                setActive("About")
+                setActive("About");
               }}
             >
               About Me
@@ -143,7 +143,7 @@ export default function Hero({ setActive }) {
                 borderRadius: "10px",
               }}
               onClick={() => {
-                setActive("Awards")
+                setActive("Awards");
               }}
             >
               Awards
@@ -164,7 +164,7 @@ export default function Hero({ setActive }) {
                 borderRadius: "10px",
               }}
               onClick={() => {
-                setActive("Projects")
+                setActive("Projects");
               }}
             >
               Projects
@@ -185,7 +185,7 @@ export default function Hero({ setActive }) {
                 borderRadius: "10px",
               }}
               onClick={() => {
-                setActive("Experience")
+                setActive("Experience");
               }}
             >
               Experience
@@ -206,7 +206,7 @@ export default function Hero({ setActive }) {
                 borderRadius: "10px",
               }}
               onClick={() => {
-                setActive("Contact")
+                setActive("Contact");
               }}
             >
               Contact

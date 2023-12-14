@@ -85,7 +85,6 @@ html {
   position: relative;
   background: var(--border-gradient-onyx);
   box-shadow: var(--shadow-2);
-  cursor: pointer;
   z-index: 1;
 }
 

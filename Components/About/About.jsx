@@ -34,7 +34,7 @@ export default function About() {
               className="w-full h-full object-cover"
             />
           </div>
-          <p className="text-white">
+          <p className="text-white text-sm md:text-base">
             Welcome to my corner of the web. I'm Maleesha, a self-taught Web
             Developer with a relentless passion for crafting elegant and
             efficient digital experiences. Despite the absence of a formal
