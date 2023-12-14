@@ -41,7 +41,7 @@ export default function Contact() {
       });
       setLoading(false);
 
-      toast.success("Message added successfully!");
+      toast.success("Your message sent successfully!");
       console.log("Message added successfully!");
     } catch (error) {
       toast.error("Somthing went wrong");
