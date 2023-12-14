@@ -22,13 +22,13 @@ const Timeline = () => (
       date="Aug, 2022"
       title="Udawalmariya"
       desc="A website"
-      content="We created a website to help people during covid 19 situation. Using this website people could share their goods. We presesnted this website in UNISEF sri lanka in educational department Sri Lanka. (Not active now)"
+      content="We created a website to help people during the COVID-19 situation. Through this website, people could share their goods. We presented this website to UNICEF Sri Lanka in the educational department (currently not active)."
     />
     <TimelineItem
       date="DES, 2023"
       title="NoteMe X"
       desc="A website - www.notemex.com"
-      content="Created a website for educational notes sharing. Using this student could share their notes amoung other students. We went to sirasa TV too.
+      content="We created a website for sharing educational notes, where students could share their notes among other students. We also went to Sirasa TV.
       visit it - www.notemex.com
       "
     />
