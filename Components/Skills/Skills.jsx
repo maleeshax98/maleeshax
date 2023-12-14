@@ -83,7 +83,7 @@ export default function () {
             viewport={{
               once: true,
             }}
-            className="h-[10px] bg-blue-600 rounded-full"
+            className="h-[10px] bg-blue-600 rounded-full skill-loader"
           ></motion.div>
         </div>
       ))}
