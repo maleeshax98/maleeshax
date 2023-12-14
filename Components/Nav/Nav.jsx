@@ -18,7 +18,7 @@ export default function Nav({ setActive, active }) {
       viewport={{
         once: true
       }}
-      className="nav rounded-md p-2 sticky border-[1px] border-[#333333] flex gap-[10px] items-center justify-center top-10 "
+      className="nav text-xs md:text-base rounded-md p-2 sticky border-[1px] border-[#333333] flex gap-[10px] items-center justify-center top-10 "
     >
       <ul className="flex flex-wrap items-center justify-center ">
         <motion.li

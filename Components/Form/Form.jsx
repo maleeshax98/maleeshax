@@ -12,12 +12,12 @@ export default function Form({
 }) {
   return (
     <div>
-      <div className="mt-[30px]  max-w-[80vw]  flex flex-col gap-[40px]">
+      <div className="mt-[30px]   flex flex-col gap-[40px]">
         <label>
           <p className="text-[#707070]">Email</p>
           <input
             type="text"
-            className="p-2 w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
+            className="p-2 sm:w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
             onChange={(e) => {
               setEmail(e.target.value);
             }}
@@ -27,7 +27,7 @@ export default function Form({
           <p className="text-[#707070]">Name</p>
           <input
             type="text"
-            className="p-2 w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
+            className="p-2 sm:w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
             onChange={(e) => {
               setName(e.target.value);
             }}
@@ -37,7 +37,7 @@ export default function Form({
           <p className="text-[#707070]">Your message</p>
           <textarea
             type="text"
-            className="p-2 w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
+            className="p-2 sm:w-[100vw] text-sm outline-none text-white font-semibold max-w-[450px] rounded-lg bg-[#333333]"
             onChange={(e) => {
               setMessage(e.target.value);
             }}

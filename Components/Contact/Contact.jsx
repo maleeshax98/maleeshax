@@ -67,7 +67,7 @@ export default function Contact() {
       viewport={{
         once: true,
       }}
-      className="bg-[#1e1e1f] rounded-md p-4  max-w-[80vw]   border-[1px] border-[#333333] flex gap-[10px]  top-10 pb-[80px]"
+      className="bg-[#1e1e1f] rounded-md p-4  border-[1px] border-[#333333] flex gap-[10px]  top-10 pb-[80px]"
     >
       <div>
         <h1 className="font-bold text-2xl text-white text-left">Contact Me</h1>

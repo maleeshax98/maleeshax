@@ -47,7 +47,7 @@ export default function Hero({ setActive }) {
         <h1 className="font-bold text-[#c0c0c0] text-3xl text-center">
           Maleesha Nayanashan
         </h1>
-        <p className="font-semibold text-[#848484] text-xl text-center mt-[10px]">
+        <p className="font-semibold text-[#848484] text-sm md:text-xl text-center mt-[10px]">
           <span>
             {" "}
             {"<"} {text} {"/>"}

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function ContactCard() {
   return (
-    <div className="card w-full max-w-[80vw] mt-[30px] rounded-lg p-4 flex flex-wrap gap-[20px]">
+    <div className="card w-[] md:w-full  mt-[30px] rounded-lg p-4 flex flex-wrap gap-[20px]">
       <div className="w-[150px] h-[150px] rounded-full overflow-hidden relative">
         <Image
           src={"/images/1.jpg"}
@@ -16,13 +16,13 @@ export default function ContactCard() {
         <h1 className="font-bold text-xl text-white">Maleesha Nayanahan</h1>
         <p className="text-sm text-[#797878]">A full stack web developer</p>
         <div className="flex flex-wrap gap-[15px] mt-[15px]">
-          <div className="flex items-center rounded-md gap-[15px]">
+          <div className="flex flex-wrap items-center rounded-md gap-[15px]">
             <div className="card p-2 rounded-md">
               <Image src={"/icons/email.svg"} width={20} height={20} alt="" />
             </div>
             <div>
               <p className="text-xs font-semibold text-[#797878]">EMAIL</p>
-              <p className="text-sm font-semibold text-[#aeadad]">
+              <p className="text-xs sm:text-sm w-[full] font-semibold text-[#aeadad]">
                 maleeshathegreat@gmail.com
               </p>
             </div>
